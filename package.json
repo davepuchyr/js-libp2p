@@ -59,7 +59,7 @@
     "cids": "~0.5.3",
     "dirty-chai": "^2.0.1",
     "electron-webrtc": "~0.3.0",
-    "libp2p-circuit": "~0.2.0",
+    "libp2p-circuit": "^0.2.1",
     "libp2p-delegated-content-routing": "github:libp2p/js-libp2p-delegated-content-routing#master",
     "libp2p-delegated-peer-routing": "github:libp2p/js-libp2p-delegated-peer-routing#master",
     "libp2p-kad-dht": "~0.10.1",
@@ -79,6 +79,9 @@
     "sinon": "^6.1.4",
     "webrtcsupport": "^2.2.0",
     "wrtc": "~0.1.6"
+  },
+  "resolutions": {
+    "ipfs-api": "github:ipfs/js-ipfs-api#test/easier-mocking"
   },
   "contributors": [
     "Alan Shaw <alan@tableflip.io>",
